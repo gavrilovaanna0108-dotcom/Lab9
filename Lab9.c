@@ -9,8 +9,8 @@ char task3_get_char(char sym, int i, int j, int size);
 
 int main(void)
 {
-    setlocale(LC_ALL, "");
-
+    setlocale(LC_CTYPE, "RUS");
+    
     long long number;
     char sym;
     int size;
